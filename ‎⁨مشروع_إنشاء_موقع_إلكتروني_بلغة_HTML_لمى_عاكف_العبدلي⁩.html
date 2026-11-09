@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>إنشاء موقع إلكتروني بلغة HTML</title>
+<style>
+:root{--purple:#7251a6;--deep:#49336f;--pink:#f3a9c8;--pale:#fff5fa;--ink:#342b40}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;color:var(--ink);background:linear-gradient(180deg,#fff7fb,#f6f1ff);line-height:1.9}
+header{padding:48px 18px;text-align:center;color:white;background:linear-gradient(135deg,#49336f,#805eb4 58%,#d58db7)}
+header .tag{display:inline-block;padding:5px 15px;border:1px solid #ffffff88;border-radius:30px;font-size:14px}
+h1{font-size:clamp(27px,5vw,43px);margin:12px 0 5px}header p{margin:0;color:#fff4fb}
+nav{position:sticky;top:0;z-index:5;display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:12px;background:#fffafdef;box-shadow:0 3px 14px #49336f12}
+nav a{text-decoration:none;color:var(--deep);font-weight:bold;padding:6px 13px;border-radius:20px}
+nav a:hover{background:#f4e5f0}main{width:min(920px,92%);margin:30px auto}
+section{margin:22px 0;padding:24px;border-radius:20px;background:white;border:1px solid #eee2f1;box-shadow:0 7px 22px #49336f0b}
+.intro{text-align:center}.intro h2,h2{color:var(--deep);margin-top:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.card{padding:17px;border-radius:16px;background:var(--pale);border:1px solid #f1d9e8}
+.card h3{color:var(--purple);margin:0 0 6px}.card p{margin:0}
+.note{padding:15px 18px;border-right:5px solid var(--pink);background:#fff5fa;border-radius:12px}
+footer{margin-top:35px;padding:24px 15px;text-align:center;color:white;background:var(--deep)}
+footer p{margin:4px}
+</style>
+</head>
+<body>
+<header id="home">
+<span class="tag">اسم الدرس: إنشاء موقع إلكتروني بلغة HTML • الصف الأول الثانوي</span>
+<h1>إنشاء موقع إلكتروني بلغة HTML</h1>
+<p>مشروع مادة التقنية الرقمية</p>
+</header>
+<nav aria-label="القائمة الرئيسية">
+<a href="#about">عن التقنية</a><a href="#fields">مجالاتها</a><a href="#benefits">فوائدها</a><a href="#safety">الاستخدام الآمن</a>
+</nav>
+<main>
+<section class="intro">
+<h2>مرحبًا بكم في عالم التقنية</h2>
+<p>نعيش اليوم في عصر رقمي أصبحت فيه التقنية جزءًا مهمًا من حياتنا اليومية؛ فهي تساعدنا على التعلم والتواصل وإنجاز الأعمال بطرق أسرع وأسهل.</p>
+</section>
+<section id="about">
+<h2>ما المقصود بالتقنية؟</h2>
+<p>التقنية هي تطبيق المعرفة والمهارات والأدوات لإيجاد حلول للمشكلات وتلبية احتياجات الإنسان. وتتطور باستمرار لتقدم خدمات وابتكارات جديدة.</p>
+</section>
+<section id="fields">
+<h2>مجالات استخدام التقنية</h2>
+<div class="cards">
+<article class="card"><h3>التعليم</h3><p>المنصات التعليمية والفصول الافتراضية والبحث عن المعلومات.</p></article>
+<article class="card"><h3>الصحة</h3><p>الأجهزة الطبية الحديثة وحفظ السجلات الصحية ومتابعة المرضى.</p></article>
+<article class="card"><h3>التواصل</h3><p>تبادل الرسائل والمعلومات والتواصل مع الآخرين بسهولة.</p></article>
+<article class="card"><h3>النقل</h3><p>تطبيقات الخرائط وتنظيم الرحلات وتطوير وسائل النقل.</p></article>
+</div>
+</section>
+<section id="benefits">
+<h2>فوائد التقنية</h2>
+<ul><li>توفير الوقت والجهد.</li><li>سهولة الوصول إلى المعرفة والمعلومات.</li><li>تحسين جودة الخدمات في مجالات مختلفة.</li><li>تشجيع الابتكار والإبداع وحل المشكلات.</li></ul>
+</section>
+<section id="safety">
+<h2>الاستخدام الآمن والمسؤول</h2>
+<p class="note">من المهم حماية كلمات المرور، وعدم مشاركة المعلومات الشخصية مع الغرباء، والتحقق من صحة المعلومات قبل نشرها، وتحديد وقت مناسب لاستخدام الأجهزة.</p>
+</section>
+</main>
+<footer>
+<p><strong>إعداد الطالبة: لمى عاكف العبدلي</strong></p>
+<p>الصف الأول الثانوي — مادة التقنية الرقمية</p>
+<p>شكرًا لزيارتكم</p>
+</footer>
+</body>
+</html>
